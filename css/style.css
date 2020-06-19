@@ -144,7 +144,7 @@ header{
 	padding-right: 55px;
 	border: none;
 	border-bottom: 1px solid #000;
-    background-color: transparent;
+    	background-color: transparent;
 }
 .s-form input:focus{
 	outline: none;
@@ -152,9 +152,10 @@ header{
 .s-form button{
 	position: absolute;
 	cursor: pointer;
+	background-color: transparent;
 	border: none;
  	top: 8px;
-    right: 0;
+   	right: 0;
 }
 .s-form button:focus{
 	outline: none;
