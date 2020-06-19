@@ -1,0 +1,238 @@
+
+body{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{
+	padding: 15px 0;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 10%;
+	float: left;
+	margin-top: 17px; 
+	cursor: pointer;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 56.07%;
+	float: right;	
+}
+.menu ul{
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 0 50px;
+	display: inline-block;
+	border-bottom: 1px solid transparent;
+}
+.menu ul li:last-child a{
+	margin-right: 0px;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+/*header end*/
+
+/*banner start*/
+.banner{}
+.b-image{
+	width: 100%;
+}
+/*banner end*/
+
+/*parfect star*/
+.photodiary-container{
+	padding: 70px 0;
+}
+.container2{
+	width: 80%;
+	margin: 0 auto; 
+	overflow: hidden;
+}
+.p-content{
+}
+.light{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #b4ad9e;
+	text-transform: uppercase;
+	margin: 0;
+}
+.c-h2{
+	font-weight: 400;
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 30ox;
+}
+.c-p{
+	font-size: 14px;
+	line-height: 25px;
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+/*parfect end*/
+
+/*blog start*/
+.blog{
+	padding-top: 70px; 
+	padding-bottom: 20px;
+}
+.single{
+	width: 47%;
+	float: left;
+	margin-bottom: 30px;
+}
+.single:nth-child(even){
+	margin-left: 6%;
+}
+.single img{
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+}
+/*blog end*/
+
+
+/*signup for newsletter start*/
+.signup-container{
+	width: 100%;
+	background-color: #f0f0f0;
+	padding: 70px 0;
+}
+.signup-part{
+	width: 30%;
+	margin: 0 auto;
+}
+.signup{
+	text-align: center;
+}
+.s-h2{
+	color: #333333;
+	margin-top: 0;
+	margin-bottom: 70px;
+}
+.s-form{
+	position: relative;
+	width: 400px;
+	margin: 0 auto;
+}
+.s-form input{
+	width: 335px;
+	height: 26px;
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	color: #626262;
+	padding: 4px 0;
+	padding-left: 6px;
+	padding-right: 55px;
+	border: none;
+	border-bottom: 1px solid #000;
+    background-color: transparent;
+}
+.s-form input:focus{
+	outline: none;
+}
+.s-form button{
+	position: absolute;
+	cursor: pointer;
+	border: none;
+ 	top: 8px;
+    right: 0;
+}
+.s-form button:focus{
+	outline: none;
+}
+.s-form img{
+	cursor: pointer;
+}
+/*signup for newsletter end*/
+
+/*blog part 2 start*/
+/*=================================
+------completed in blog class------
+===================================*/
+/*blog part 2 end*/
+
+/*load more button start*/
+.button{
+	width: 100%;
+	text-align: center;
+	padding-top: 90px;
+	padding-bottom: 150px;
+}
+.button button{
+	width: 165px;
+	height: 60px;
+	font-size: 20px;
+	color: #626262;
+	background-color: #fff;
+	border: 1px solid #626262;
+	cursor: pointer;
+	transition: .4s;
+}
+.button button:focus{
+	outline: none;
+}
+.button button:hover{
+	background-color: #f0f0f0;
+	border-color: transparent;
+}
+/*load more button end*/
+
+/*footer start*/
+footer{
+	width: 100%;
+	background-color: #f0f0f0;
+	padding: 20px 0;
+}
+.footer-left{
+	width: 25%;
+	float: left;
+}
+.footer-left ul{}
+.footer-left ul li{
+	list-style: none;
+	float: left;
+}
+.footer-left ul li a{
+	color: #000;
+	text-decoration: none;
+	/*cursor: pointer;*/
+}
+.footer-left ul li:last-child a{
+	margin-left: 35px;
+}	
+.footer-right{
+	width: 18%;
+	float: right;
+}
+.footer-right ul{}
+.footer-right ul li{
+	color: #000;
+	list-style: none;
+	float: left;
+}
+.footer-right ul li a{
+	padding-left: 14px;
+	cursor: pointer;
+}
+.footer-right i{
+	color: #626262;
+}
+/*footer end*/
