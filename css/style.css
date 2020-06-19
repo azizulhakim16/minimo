@@ -34,6 +34,7 @@ header{
 	float: left;
 }
 .menu ul li a{
+	color: #626262;
 	text-decoration: none;
 	text-transform: uppercase;
 	margin: 0 50px;
